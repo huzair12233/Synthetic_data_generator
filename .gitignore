@@ -1,2 +1,10 @@
 # Ignore Python virtual environments
 .venv/
+data/
+.env
+frontend/node_modules/
+# Ignore all CSV files in the entire project
+*.csv
+
+# Ignore all Python files starting with 'train_'
+**/train_*.py

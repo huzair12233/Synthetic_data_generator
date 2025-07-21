@@ -1,3 +1,41 @@
-sdv
+# Core dependencies
+fastapi
+uvicorn[standard]
+pydantic[email]
+python-multipart
+
+# Database
+motor
+pymongo
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-jose[cryptography]
+
+# AI/ML
+google-generativeai
 pandas
-scikit-learn
+numpy
+
+# Data processing
+openpyxl
+xlrd
+
+# Utilities
+python-dotenv
+aiofiles
+
+# Development
+pytest
+pytest-asyncio
+httpx
+
+# Web framework and API
+python-dotenv
+
+# File handling
+aiofiles
+
+# CORS
+fastapi-cors
